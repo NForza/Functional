@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace NForza.Functional
+namespace Beerendonk.Functional
 {
     public static class QueryableExtensions
     {

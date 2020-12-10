@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NForza.Functional
+namespace Beerendonk.Functional
 {
     /// <summary>
     /// Extension methods for Action types.

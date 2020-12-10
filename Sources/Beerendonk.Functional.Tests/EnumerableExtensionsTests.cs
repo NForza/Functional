@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NForza.Functional.Tests
+namespace Beerendonk.Functional.Tests
 {
     [TestClass]
     public class EnumerableExtensionsTests

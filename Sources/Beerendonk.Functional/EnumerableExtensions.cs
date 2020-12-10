@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NForza.Functional
+namespace Beerendonk.Functional
 {
     public static class EnumerableExtensions
     {

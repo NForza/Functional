@@ -1,5 +1,5 @@
-﻿using NForza.Console;
-using NForza.Functional;
+﻿using Beerendonk.Console;
+using Beerendonk.Functional;
 using System;
 using System.Collections.Generic;
 using System.Linq;

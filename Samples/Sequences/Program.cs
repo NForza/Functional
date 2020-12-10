@@ -1,5 +1,5 @@
-﻿using NForza.Console;
-using NForza.Functional;
+﻿using Beerendonk.Console;
+using Beerendonk.Functional;
 using System;
 using System.Linq;
 
@@ -63,19 +63,19 @@ namespace Sequences
             // 1, 2, 3, 4, 5, 6
 
             ConsoleExt.WriteTitledSeq(
-                "Cycle [NForza]",
+                "Cycle [Beerendonk]",
                 "new[] { 1, 2, 3 }.Cycle()",
                 new[] { 1, 2, 3 }.Cycle());
             // 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3...
 
             ConsoleExt.WriteTitledSeq(
-                "Interleave [NForza]",
+                "Interleave [Beerendonk]",
                 "new[] { 2, 2 }.Interleave(new[] { 3, 3, 3 }, new[] { 4, 4, 4, 4 })",
                 new[] { 2, 2 }.Interleave(new[] { 3, 3, 3 }, new[] { 4, 4, 4, 4 }));
             // 2, 3, 4, 2, 3, 4
 
             ConsoleExt.WriteTitledSeq(
-                "Interpose [NForza]",
+                "Interpose [Beerendonk]",
                 "new[] { 5, 5, 5, 5, 5 }.Interpose(1)",
                 new[] { 5, 5, 5, 5, 5 }.Interpose(1));
             // 5, 1, 5, 1, 5, 1, 5, 1, 5
@@ -117,7 +117,7 @@ namespace Sequences
             // 1, 2
 
             ConsoleExt.WriteTitledSeq(
-                "TakeNth [NForza]",
+                "TakeNth [Beerendonk]",
                 "Enumerable.Range(1, 100).TakeNth(3)",
                 Enumerable.Range(1, 100).TakeNth(3));
             // 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36...
@@ -141,7 +141,7 @@ namespace Sequences
             ConsoleExt.Header2("Rearrangment of a enumerable");
 
             ConsoleExt.WriteTitledSeq(
-                "Order [NForza]",
+                "Order [Beerendonk]",
                 "new[] { 2, 4, 5, 1, 3 }.Order()",
                 new[] { 2, 4, 5, 1, 3 }.Order());
             // 1, 2, 3, 4, 5
@@ -159,7 +159,7 @@ namespace Sequences
             // 5, 4, 3, 2, 1
 
             ConsoleExt.WriteTitledSeq(
-                "Shuffle [NForza]",
+                "Shuffle [Beerendonk]",
                 "new[] { 1, 2, 3, 4, 5 }.Shuffle(new Random(321))",
                 new[] { 1, 2, 3, 4, 5 }.Shuffle(new Random(321)));
             // 3, 1, 4, 5, 2
@@ -177,13 +177,13 @@ namespace Sequences
             ConsoleExt.Header2("Process each item of a enumerable to create a new enumerable");
 
             ConsoleExt.WriteTitledSeq(
-                "Aggregations [NForza]",
+                "Aggregations [Beerendonk]",
                 "new[] { 1, 2, 3, 4, 5 }.Aggregations((x, y) => x + y)",
                 new[] { 1, 2, 3, 4, 5 }.Aggregations((x, y) => x + y));
             // 1, 3, 6, 10, 15
 
             ConsoleExt.WriteTitledSeq(
-                "Aggregations (with seed) [NForza]",
+                "Aggregations (with seed) [Beerendonk]",
                 "new[] { 1, 2, 3, 4, 5 }.Aggregations(100, (x, y) => x + y)",
                 new[] { 1, 2, 3, 4, 5 }.Aggregations(100, (x, y) => x + y));
             // 100, 101, 103, 106, 110, 115
@@ -227,35 +227,35 @@ namespace Sequences
             };
 
             ConsoleExt.WriteTitledSeq(
-                "CountBy [NForza]",
+                "CountBy [Beerendonk]",
                 "new[] { new Person(\"Alice\", Sex.Female, 26000), new Person(\"Barry\", Sex.Male, 32000), new Person(\"Clare\", Sex.Female, 64000), new Person(\"Derk\", Sex.Male, 40000), new Person(\"Eva\", Sex.Female, 21000) }.CountBy(x => x.Sex)",
                 EnumerableExtensions.CountBy(persons, x => x.Sex)
                 );
             // [Female, 3], [Male, 2]
 
             ConsoleExt.WriteTitledSeq(
-                "AverageBy [NForza]",
+                "AverageBy [Beerendonk]",
                 "new[] { new Person(\"Alice\", Sex.Female, 26000), new Person(\"Barry\", Sex.Male, 32000), new Person(\"Clare\", Sex.Female, 64000), new Person(\"Derk\", Sex.Male, 40000), new Person(\"Eva\", Sex.Female, 21000) }.AverageBy(x => x.Sex, x => x.Income)",
                 EnumerableExtensions.AverageBy(persons, x => x.Sex, x => x.Income)
                 );
             // [Female, 3], [Male, 2]
 
             ConsoleExt.WriteTitledSeq(
-                "MaxBy [NForza]",
+                "MaxBy [Beerendonk]",
                 "new[] { new Person(\"Alice\", Sex.Female, 26000), new Person(\"Barry\", Sex.Male, 32000), new Person(\"Clare\", Sex.Female, 64000), new Person(\"Derk\", Sex.Male, 40000), new Person(\"Eva\", Sex.Female, 21000) }.MaxBy(x => x.Sex, x => x.Income)",
                 EnumerableExtensions.MaxBy(persons, x => x.Sex, x => x.Income)
                 );
             // [Female, 64000], [Male, 40000]
 
             ConsoleExt.WriteTitledSeq(
-                "MinBy [NForza]",
+                "MinBy [Beerendonk]",
                 "new[] { new Person(\"Alice\", Sex.Female, 26000), new Person(\"Barry\", Sex.Male, 32000), new Person(\"Clare\", Sex.Female, 64000), new Person(\"Derk\", Sex.Male, 40000), new Person(\"Eva\", Sex.Female, 21000) }.MinBy(x => x.Sex, x => x.Income)",
                 EnumerableExtensions.MinBy(persons, x => x.Sex, x => x.Income)
                 );
             // [Female, 21000], [Male, 32000]
 
             ConsoleExt.WriteTitledSeq(
-                "SumBy [NForza]",
+                "SumBy [Beerendonk]",
                 "new[] { new Person(\"Alice\", Sex.Female, 26000), new Person(\"Barry\", Sex.Male, 32000), new Person(\"Clare\", Sex.Female, 64000), new Person(\"Derk\", Sex.Male, 40000), new Person(\"Eva\", Sex.Female, 21000) }.SumBy(x => x.Sex, x => x.Income)",
                 EnumerableExtensions.SumBy(persons, x => x.Sex, x => x.Income)
                 );
@@ -323,7 +323,7 @@ namespace Sequences
             ConsoleExt.Header2("From producer function");
 
             ConsoleExt.WriteTitledSeq(
-                "Repeatedly (limited) [NForza]",
+                "Repeatedly (limited) [Beerendonk]",
                 "EnumerableExtensions.Repeatedly(5, () => { Console.WriteLine(\"- func-call\"); return 1; })",
                 EnumerableExtensions.Repeatedly(5, () => { Console.WriteLine("- func-call"); return 1; }));
             /*
@@ -336,7 +336,7 @@ namespace Sequences
             */
 
             ConsoleExt.WriteTitledSeq(
-                "Repeatedly (unlimited) [NForza]",
+                "Repeatedly (unlimited) [Beerendonk]",
                 "EnumerableExtensions.Repeatedly(() => { Console.WriteLine(\"- func-call\"); return 1; })",
                 EnumerableExtensions.Repeatedly(() => { Console.WriteLine("- func-call"); return 1; }));
             /*
@@ -358,7 +358,7 @@ namespace Sequences
              */
 
             ConsoleExt.WriteTitledSeq(
-                "Iterate [NForza]",
+                "Iterate [Beerendonk]",
                 "EnumerableExtensions.Iterate(x => x + 1, 1)",
                 EnumerableExtensions.Iterate(x => x + 1, 1));
             // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12...
@@ -370,13 +370,13 @@ namespace Sequences
             ConsoleExt.Header2("From constant");
 
             ConsoleExt.WriteTitledSeq(
-                "Repeat (limited) [NForza]",
+                "Repeat (limited) [Beerendonk]",
                 "Enumerable.Repeat<int>(5, 1) or EnumerableExtensions.Repeat<int>(5, 1)",
                 EnumerableExtensions.Repeat<int>(5, 1));
             // 1, 1, 1, 1, 1
 
             ConsoleExt.WriteTitledSeq(
-                "Repeat (unlimited) [NForza]",
+                "Repeat (unlimited) [Beerendonk]",
                 "EnumerableExtensions.Repeat<int>(1)",
                 EnumerableExtensions.Repeat<int>(1));
             // 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1...
@@ -396,7 +396,7 @@ namespace Sequences
 
             #region Abstractions
 
-            Console.WriteLine("WeightedAverage [NForza]");
+            Console.WriteLine("WeightedAverage [Beerendonk]");
             Console.WriteLine("new[] { 1, 2, 3 }.WeightedAverage(x => x, x => (uint)x)");
             Console.WriteLine(new[] { 1, 2, 3 }.WeightedAverage(x => x, x => (uint)x).ToString());
 

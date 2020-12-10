@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NForza.Console
+namespace Beerendonk.Console
 {
     /// <summary>
     /// Helper functions to write Headers and Enumerables to the console.

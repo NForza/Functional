@@ -7,8 +7,8 @@
     <ProjectGuid>{065FBFE7-1500-403A-95FB-040A0ED865F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NForza.Console</RootNamespace>
-    <AssemblyName>NForza.Console</AssemblyName>
+    <RootNamespace>Beerendonk.Console</RootNamespace>
+    <AssemblyName>Beerendonk.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -1,5 +1,5 @@
 ﻿
-namespace NForza.Functional
+namespace Beerendonk.Functional
 {
     internal static class Strings
     {

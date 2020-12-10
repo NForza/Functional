@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace NForza.Functional
+namespace Beerendonk.Functional
 {
     internal static class EnumerableExpressionExtensions
     {

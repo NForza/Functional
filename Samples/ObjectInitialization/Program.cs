@@ -1,5 +1,5 @@
 ﻿using System;
-using NForza.Functional.Initialization;
+using Beerendonk.Functional.Initialization;
 
 namespace ObjectInitialization
 {

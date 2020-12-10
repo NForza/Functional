@@ -44,13 +44,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Sources\NForza.Functional\NForza.Functional.csproj">
+    <ProjectReference Include="..\..\Sources\Beerendonk.Functional\Beerendonk.Functional.csproj">
       <Project>{f01e7b65-191e-447f-a831-c312d0b5e0cc}</Project>
-      <Name>NForza.Functional</Name>
+      <Name>Beerendonk.Functional</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NForza.Console\NForza.Console.csproj">
+    <ProjectReference Include="..\Beerendonk.Console\Beerendonk.Console.csproj">
       <Project>{065fbfe7-1500-403a-95fb-040a0ed865f3}</Project>
-      <Name>NForza.Console</Name>
+      <Name>Beerendonk.Console</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

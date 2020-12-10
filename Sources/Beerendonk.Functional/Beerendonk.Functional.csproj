@@ -8,8 +8,8 @@
     <ProjectGuid>{F01E7B65-191E-447F-A831-C312D0B5E0CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NForza.Functional</RootNamespace>
-    <AssemblyName>NForza.Functional</AssemblyName>
+    <RootNamespace>Beerendonk.Functional</RootNamespace>
+    <AssemblyName>Beerendonk.Functional</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

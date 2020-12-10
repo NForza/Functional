@@ -4,12 +4,12 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NForza.Functional")]
+[assembly: AssemblyTitle("Beerendonk.Functional")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NForza (www.nforza.nl)")]
-[assembly: AssemblyProduct("NForza.Functional")]
-[assembly: AssemblyCopyright("Copyright © NForza 2013")]
+[assembly: AssemblyCompany("Beerendonk (www.Beerendonk.nl)")]
+[assembly: AssemblyProduct("Beerendonk.Functional")]
+[assembly: AssemblyCopyright("Copyright © Beerendonk 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("en")]

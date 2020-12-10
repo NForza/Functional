@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NForza.Functional.Initialization
+namespace Beerendonk.Functional.Initialization
 {
     public static class ObjectExtensions
     {

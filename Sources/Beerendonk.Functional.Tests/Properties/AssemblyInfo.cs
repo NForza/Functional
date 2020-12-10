@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NForza.Console")]
+[assembly: AssemblyTitle("Beerendonk.Functional.Latest.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NForza.Console")]
+[assembly: AssemblyProduct("Beerendonk.Functional.Latest.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f6611f85-5072-4e63-bb10-ef8588033c4d")]
+[assembly: Guid("0badf7c6-fa78-46a6-940f-395ea4cef54b")]
 
 // Version information for an assembly consists of the following four values:
 //

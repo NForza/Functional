@@ -13,11 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregate", "Samples\Aggreg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequences", "Samples\Sequences\Sequences.csproj", "{3BB213AE-2622-4613-9CB4-C5AB7F05CEEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NForza.Console", "Samples\NForza.Console\NForza.Console.csproj", "{065FBFE7-1500-403A-95FB-040A0ED865F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beerendonk.Console", "Samples\Beerendonk.Console\Beerendonk.Console.csproj", "{065FBFE7-1500-403A-95FB-040A0ED865F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NForza.Functional.Tests", "Sources\NForza.Functional.Tests\NForza.Functional.Tests.csproj", "{B01C1963-1E19-4450-AAEA-98BE80DECB68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beerendonk.Functional.Tests", "Sources\Beerendonk.Functional.Tests\Beerendonk.Functional.Tests.csproj", "{B01C1963-1E19-4450-AAEA-98BE80DECB68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NForza.Functional", "Sources\NForza.Functional\NForza.Functional.csproj", "{F01E7B65-191E-447F-A831-C312D0B5E0CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beerendonk.Functional", "Sources\Beerendonk.Functional\Beerendonk.Functional.csproj", "{F01E7B65-191E-447F-A831-C312D0B5E0CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partial", "Samples\Partial\Partial.csproj", "{2F2C72B3-A0EA-4C74-BA61-19732436E107}"
 EndProject
